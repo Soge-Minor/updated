@@ -18,7 +18,7 @@ class MainHandler(webapp2.RequestHandler):
         cur_user = users.get_current_user()
         log_url = ''
         if cur_user:
-            log_url = users.create_logout_url('/')
+            log_url = users.create_logout_url('/homepage')
         else:
             log_url = users.create_login_url('/')
         template = jinja_environment.get_template('main.html')
