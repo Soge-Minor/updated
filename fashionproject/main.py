@@ -36,7 +36,7 @@ app = webapp2.WSGIApplication([
     ('/', MainHandler),
     ('/login', LoginHandler),
     ('/homepage', HomePageHandler),
-    ('/choose_outfit' ChooseOutfitHandler),
+    ('/choose_outfit', ChooseOutfitHandler),
     ('/styles_colors', StylesColorsHandler)
 
 ], debug=True)
