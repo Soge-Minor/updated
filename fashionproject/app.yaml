@@ -9,7 +9,7 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
--url: /resources
+- url: /resources
   static_dir: resources/
 
 - url: .*
